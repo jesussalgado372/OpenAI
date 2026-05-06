@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# OpenAI API Foundations: Build Your First AI Application
+This is the repository for the LinkedIn Learning course `OpenAI API Foundations: Build Your First AI Application`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![course-name-alt-text][lil-thumbnail-url] 
 
