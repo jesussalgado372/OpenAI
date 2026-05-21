@@ -18,7 +18,7 @@ client = OpenAI()
 # --- Your first API call ---
 
 # TODO 1: Use client.responses.create() to send a request.
-#   - Set model to "gpt-5"
+#   - Set model to "gpt-5.5"
 #   - Set input to "What is a VPN and why would a company require one?"
 #   - Print response.output_text
 

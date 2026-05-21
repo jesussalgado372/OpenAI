@@ -35,7 +35,7 @@ print()
 # --- Feed the transcription into the knowledge assistant ---
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     input=transcript.text
 )

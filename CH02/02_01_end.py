@@ -46,7 +46,7 @@ SCHEMA = {
 # --- Web search without structured output ---
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     tools=[{"type": "web_search"}],
     input="Are there any known outages with Microsoft Teams right now?"
@@ -60,7 +60,7 @@ print()
 # --- Web search with structured output ---
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     tools=[{"type": "web_search"}],
     input="Are there any known outages with Microsoft Teams right now?",

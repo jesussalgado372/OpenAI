@@ -50,7 +50,7 @@ print("--- Dynamic Diagram from Answer ---")
 
 # Step 1: Get a process answer
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     input="What are the steps to request a new laptop?"
 )

@@ -28,7 +28,7 @@ INSTRUCTIONS = """
 # --- Add web search ---
 
 # TODO 1: Use client.responses.create() with the web search tool.
-#   - Set model to "gpt-5"
+#   - Set model to "gpt-5.5"
 #   - Set instructions to INSTRUCTIONS
 #   - Set tools to [{"type": "web_search"}]
 #   - Set input to "Are there any known outages with Microsoft Teams right now?"

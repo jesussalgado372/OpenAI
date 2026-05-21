@@ -33,7 +33,7 @@ INSTRUCTIONS = """
 image_base64 = None  # Replace this line
 
 # TODO 2: Use client.responses.create() to send the image to the model.
-#   - Set model to "gpt-5"
+#   - Set model to "gpt-5.5"
 #   - Set instructions to INSTRUCTIONS
 #   - Set input to a list with one message (role: "user")
 #   - The message content should have two items:
@@ -55,7 +55,7 @@ response = None  # Replace this line
 pdf_base64 = None  # Replace this line
 
 # TODO 4: Use client.responses.create() to send the PDF to the model.
-#   - Set model to "gpt-5"
+#   - Set model to "gpt-5.5"
 #   - Set instructions to INSTRUCTIONS
 #   - Set input to a list with one message (role: "user")
 #   - The message content should have two items:

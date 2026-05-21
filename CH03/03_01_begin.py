@@ -39,7 +39,7 @@ transcript = None  # Replace this block
 
 # TODO 2: Use client.responses.create() to answer the
 #   transcribed question.
-#   - Set model to "gpt-5"
+#   - Set model to "gpt-5.5"
 #   - Set instructions to INSTRUCTIONS
 #   - Set input to transcript.text
 #   - Print response.output_text

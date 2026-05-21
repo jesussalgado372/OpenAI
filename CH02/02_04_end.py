@@ -25,7 +25,7 @@ INSTRUCTIONS = """
 print("--- Basic Streaming ---")
 
 stream = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     input="Explain the company's data backup policy in detail.",
     stream=True
@@ -44,7 +44,7 @@ print()
 print("--- Streaming with Lifecycle Events ---")
 
 stream = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     input="What tools does the engineering team use for CI/CD?",
     stream=True

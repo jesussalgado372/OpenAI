@@ -26,7 +26,7 @@ INSTRUCTIONS = """
 # --- Stream a response ---
 
 # TODO 1: Use client.responses.create() with stream=True.
-#   - Set model to "gpt-5"
+#   - Set model to "gpt-5.5"
 #   - Set instructions to INSTRUCTIONS
 #   - Set input to "Explain the company's data backup policy in detail."
 #   - Set stream to True

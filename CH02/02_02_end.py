@@ -64,7 +64,7 @@ tools = [
 # --- Send the request ---
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     tools=tools,
     input="Can you look up the info for employee E001?"
@@ -91,7 +91,7 @@ for item in response.output:
         # --- Send the function result back ---
 
         final_response = client.responses.create(
-            model="gpt-5",
+            model="gpt-5.5",
             instructions=INSTRUCTIONS,
             previous_response_id=response.id,
             input=[

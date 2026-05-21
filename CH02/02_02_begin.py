@@ -61,7 +61,7 @@ tools = []  # Replace this line
 # --- Send the request ---
 
 # TODO 2: Use client.responses.create() with the tools list.
-#   - Set model to "gpt-5"
+#   - Set model to "gpt-5.5"
 #   - Set instructions to INSTRUCTIONS
 #   - Set tools to your tools list
 #   - Set input to "Can you look up the info for employee E001?"
@@ -84,7 +84,7 @@ result = None
 # --- Send the function result back ---
 
 # TODO 4: Use client.responses.create() to send the result back.
-#   - Set model to "gpt-5"
+#   - Set model to "gpt-5.5"
 #   - Set instructions to INSTRUCTIONS
 #   - Set previous_response_id to response.id
 #   - Set input to a list with one item:

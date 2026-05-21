@@ -79,7 +79,7 @@ def answer_question(question):
     context = "\n\n".join([r["text"] for r in results])
 
     response = client.responses.create(
-        model="gpt-5",
+        model="gpt-5.5",
         instructions=f"""
             You are an internal knowledge assistant for a technology company.
             Answer the employee's question using ONLY the context provided below.

@@ -15,7 +15,7 @@ client = OpenAI()  # Reads OPENAI_API_KEY from environment
 # --- Your first API call ---
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     input="What is a VPN and why would a company require one?"
 )
 
@@ -25,7 +25,7 @@ print(response.output_text)
 # --- Shape the model with instructions ---
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions="""
         You are an internal knowledge assistant for a technology company.
         Answer employee questions about company tools, policies, and

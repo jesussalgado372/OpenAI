@@ -73,7 +73,7 @@ mcp_tool = {
 print("--- MCP Documentation Search ---")
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     tools=[mcp_tool],
     input="How do I set up authentication in Next.js?"
@@ -88,7 +88,7 @@ print()
 print("--- Combined: Function + MCP ---")
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     tools=[employee_tool, mcp_tool],
     input="What team does employee E003 work on, and can you find the latest docs on Python FastAPI?"
@@ -102,7 +102,7 @@ for item in response.output:
         result = lookup_employee(args["employee_id"])
 
         response = client.responses.create(
-            model="gpt-5",
+            model="gpt-5.5",
             instructions=INSTRUCTIONS,
             tools=[employee_tool, mcp_tool],
             previous_response_id=response.id,

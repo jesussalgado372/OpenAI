@@ -54,7 +54,7 @@ print(f"Employee asked: {transcript.text}")
 
 # Step 2: Get the answer from the knowledge assistant
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     input=transcript.text
 )

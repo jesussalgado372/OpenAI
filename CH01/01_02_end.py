@@ -27,7 +27,7 @@ with open("data/error.png", "rb") as f:
     image_base64 = base64.b64encode(f.read()).decode("utf-8")
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5",
     instructions=INSTRUCTIONS,
     input=[
         {
@@ -57,7 +57,7 @@ with open("data/company_vpn_policy.pdf", "rb") as f:
     pdf_base64 = base64.b64encode(f.read()).decode("utf-8")
 
 response = client.responses.create(
-    model="gpt-5",
+    model="gpt-5.5.5",
     instructions=INSTRUCTIONS,
     input=[
         {
