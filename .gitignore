@@ -1,4 +1,19 @@
-.DS_Store
-node_modules
-.tmp
-npm-debug.log
+# Virtual environment folders
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Python-specific ignore rules
+__pycache__/
+*.py[cod]
+*$py.class
+
+.env
+
+dist/
+build/
+*.egg-info/
+
+.vscode/
