@@ -43,12 +43,6 @@ OPENAI_API_KEY=sk-proj-your-key-here
 CONTEXT7_API_KEY=your-context7-key-here
 ```
 
-4. Verify your setup:
-
-```
-python 00_test_setup.py
-```
-
 ## Structure
 
 Each video has its own folder. Inside each folder you'll find two versions of every lesson:
